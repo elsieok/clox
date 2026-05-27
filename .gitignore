@@ -1,0 +1,12 @@
+# Build directories
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled objects
+*.o
+*.o.d
+
+# Executable
+clox
