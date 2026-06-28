@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/main.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/main.c",
+  "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/main.c",
+  "output": "CMakeFiles/clox.dir/main.c.o"
+},
+{
+  "directory": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/chunk.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/chunk.c",
+  "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/chunk.c",
+  "output": "CMakeFiles/clox.dir/chunk.c.o"
+},
+{
+  "directory": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/debug.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/debug.c",
+  "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/debug.c",
+  "output": "CMakeFiles/clox.dir/debug.c.o"
+},
+{
+  "directory": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/memory.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/memory.c",
+  "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/memory.c",
+  "output": "CMakeFiles/clox.dir/memory.c.o"
+},
+{
+  "directory": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/value.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/value.c",
+  "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/value.c",
+  "output": "CMakeFiles/clox.dir/value.c.o"
+},
+{
+  "directory": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/vm.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/vm.c",
+  "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/vm.c",
+  "output": "CMakeFiles/clox.dir/vm.c.o"
+}
+]
