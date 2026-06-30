@@ -77,14 +77,14 @@ int getLine(Chunk* chunk, int instructionIndex) {
 void writeConstant(Chunk* chunk, Value value, int line) {
     int constantIndex = addConstant(chunk, value);
 
-    if (constantIndex <= 0xFF) { // Fits in one byte
+    if (constantIndex <= 0xFF) { // Just needs one byte
         writeChunk(chunk, OP_CONSTANT, line);
         writeChunk(chunk, (uint8_t)constantIndex, line);
     } else { // Needs 3 bytes
         writeChunk(chunk, OP_CONSTANT_LONG, line);
-        writeChunk(chunk, (constantIndex >> 16) & 0xFF, line); // high byte
-        writeChunk(chunk, (constantIndex >> 8) & 0xFF, line);  // middle byte
-        writeChunk(chunk, constantIndex & 0xFF, line);         // low byte
+        writeChunk(chunk, (constantIndex >> 16) & 0xFF, line);
+        writeChunk(chunk, (constantIndex >> 8) & 0xFF, line);
+        writeChunk(chunk, constantIndex & 0xFF, line);
     }
 }
 
