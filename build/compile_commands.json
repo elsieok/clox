@@ -13,6 +13,12 @@
 },
 {
   "directory": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/compiler.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/compiler.c",
+  "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/compiler.c",
+  "output": "CMakeFiles/clox.dir/compiler.c.o"
+},
+{
+  "directory": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/build",
   "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/debug.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/debug.c",
   "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/debug.c",
   "output": "CMakeFiles/clox.dir/debug.c.o"
@@ -22,6 +28,12 @@
   "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/memory.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/memory.c",
   "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/memory.c",
   "output": "CMakeFiles/clox.dir/memory.c.o"
+},
+{
+  "directory": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/scanner.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/scanner.c",
+  "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/scanner.c",
+  "output": "CMakeFiles/clox.dir/scanner.c.o"
 },
 {
   "directory": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/build",

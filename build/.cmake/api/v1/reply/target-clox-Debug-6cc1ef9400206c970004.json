@@ -51,7 +51,9 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7
 			]
 		}
 	],
@@ -89,7 +91,9 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7
 			]
 		}
 	],
@@ -110,6 +114,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "compiler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "debug.c",
 			"sourceGroupIndex" : 0
 		},
@@ -117,6 +127,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "memory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "scanner.c",
 			"sourceGroupIndex" : 0
 		},
 		{
