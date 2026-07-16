@@ -46,5 +46,11 @@
   "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/vm.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/vm.c",
   "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/vm.c",
   "output": "CMakeFiles/clox.dir/vm.c.o"
+},
+{
+  "directory": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -o CMakeFiles/clox.dir/object.c.o -c /Users/elsieok/Documents/projects/craftingInterpreters/clox/object.c",
+  "file": "/Users/elsieok/Documents/projects/craftingInterpreters/clox/object.c",
+  "output": "CMakeFiles/clox.dir/object.c.o"
 }
 ]
